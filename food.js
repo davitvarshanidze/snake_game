@@ -1,7 +1,7 @@
 import { on_snake, expand_snake } from "./snake.js";
 
 let food = { x: 10, y: 1 }
-const expansion_rate = 1;
+const expansion_rate = 5;
 
 export function update() {
   if (on_snake(food)) {
